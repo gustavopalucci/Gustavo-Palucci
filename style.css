@@ -5,5 +5,32 @@
 
 body {
     height: 100vh;
-    background-color: rgb(57, 72, 105);
+    background-color: rgb(131, 68, 68);
+    background-attachment: fixed;
+    color: black;
+    margin: 0;
 }
+.cabecalho {
+
+   padding: 2% 0% 15%; 
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 80px;
+
+}
+
+.cabecalho-menu-links {
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 24px;
+   font-weight: 600;
+   color: white;
+   text-decoration: none;
+
+}
+
+    
+
+
+
+
