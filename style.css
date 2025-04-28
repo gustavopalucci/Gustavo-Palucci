@@ -5,7 +5,7 @@
 
 body {
     height: 100vh;
-    background-color: rgb(131, 68, 68);
+    background-color: rgb(85, 112, 233);
     background-attachment: fixed;
     color: black;
     margin: 0;
@@ -30,6 +30,37 @@ body {
 }
 
     
+
+.título-destaque{
+color: aqua;
+
+}
+.conteúdo{
+    height: auto;
+    flex-direction:column;
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentação-conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    gap: 40px;
+    order: 2;
+}
+
+ .apresentação-conteudo-titulo{
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+ }
 
 
 
