@@ -7,7 +7,7 @@
 
 body {
     height: 100vh;
-    background-color: rgb(134, 5, 5);
+    background-color: rgb(9, 0, 137);
     background-attachment: fixed;
     color: rgb(251, 252, 252);
     margin: 0;
@@ -26,7 +26,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: white;
+    color: rgb(254, 254, 254);
     text-decoration: none;
 }
 
@@ -342,7 +342,7 @@ body {
   left: 0;
   width: 100%;
   color: #ffffff;
-  background-color: #670000;
+  background-color: #130060;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -354,5 +354,15 @@ body {
 }
 
 .rodape:hover {
-    color: #000dfd;
+    color: #4d40f9;
+}
+
+.imagem{
+    max-width: 100%;
+    width: 960px;
+    height: 1200px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #000000;
 }
